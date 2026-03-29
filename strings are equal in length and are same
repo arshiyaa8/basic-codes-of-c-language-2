@@ -10,16 +10,16 @@ printf("enter the 2nd string\n");
 gets(str2);
 for(i=0;str1[i]!='\0';i++)
 {l1=l1+1;}
-printf("length of string %d\n",l1);
+printf("\nlength of string %d\n",l1);
 
 for(i=0;str2[i]!='\0';i++)
 {l2=l2+1;}
-printf("length of string %d\n",l2);
+printf("\nlength of string %d\n",l2);
 
 if(l1==l2)
-{printf("l1 and l2 are equal lengths\n");}
+{printf("\nl1 and l2 are equal lengths\n");}
 else
-{printf("l1 and l2 are not equal lengths\n");}
+{printf("\nl1 and l2 are not equal lengths\n");}
 
 for(i=0;str1[i]!='\0';i++)
 { if (str1[i]!=str2[i])
@@ -27,8 +27,8 @@ for(i=0;str1[i]!='\0';i++)
 }
 }
  if(flag==1)
- {printf("strings are not the same\n");}
+ {printf("\nstrings are not the same\n");}
  if(flag==0)
- {printf("strings are the same\n");}
+ {printf("\nstrings are the same\n");}
 
 }
