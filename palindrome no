@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int l=0,i,flag=1;
+    char str[100];
+    printf("enter the string ");
+    scanf("%s", str);
+    for(i=0;str[i]!='\0';i++)
+    {l=l+1;}
+    for(i=0;i<l/2;i++)
+    {if(str[i]!=str[l-i-1])
+       { flag=0;
+        break;}
+    }
+    if(flag==1)
+    {printf("PALINDROME NUMBER");}
+    else
+    {printf(" NOT A PALINDROME NUMBER");}
+    
+    return 0;
+}
